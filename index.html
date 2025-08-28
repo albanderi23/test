@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <style>
+      body {
+        height: 100svh;
+      }
+
+      @font-face {
+        font-family: "GE-SS-Two-Bold";
+        src: url("src/style/GE\ SS\ Two\ Bold.ttf");
+      }
+
+      @font-face {
+        font-family: "GE-SS-Two-Medium";
+        src: url("src/style/GE\ SS\ Two\ Medium.ttf");
+      }
+
+      @font-face {
+        font-family: "GE-SS-Two-Light";
+        src: url("src/style/GE_SS_Two_Light.ttf");
+      }
+    </style>
+  </head>
+  <body
+    style="
+      background-color: #121b3f;
+      color: white;
+      height: fit-content;
+      min-height: 100dvh;
+      overflow-y: auto;
+      font-family: 'GE-SS-Two-light', Arial, Helvetica, sans-serif;
+    "
+    dir="rtl"
+  >
+    <div id="root" style="margin: 0; width: 100%"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
